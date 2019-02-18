@@ -179,6 +179,6 @@ not recommended as it may produce undesired results and impair the functions of 
 page significantly!
 
 ## Further Documentation
-There exist a documentation of the [backend routes](./election-tool-backend/API.md) as well as one for the [frontend Vue components](./election-tool-frontend/documentation.md). 
+There exist a documentation of the [backend routes](./election-tool-backend/API.md) as well as one for the [frontend Vue components](./election-tool-frontend/Documentation.md). 
 
 If you are trying to integrate this tool into Schul-Cloud have a look at our [thoughts on that](./schulcloud-integrierung.md).
