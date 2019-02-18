@@ -1,0 +1,13 @@
+{
+  "localDevelopment": {
+    "host": "localhost",
+    "port": 8080,
+    "server": "http://localhost:3000"
+  },
+  "multiDeviceDevelopment": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "server": "http://192.168.0.14:3000",
+    "_comment": "use your local IPv4 address for the server address"
+  }
+}

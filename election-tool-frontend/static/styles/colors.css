@@ -1,0 +1,32 @@
+
+:root {
+    /* schullcoud colors */
+    --primaryColor: #b10438;
+    --secondaryColor: #e2661d;
+    --accentColor: #f8a41b;
+    --fontColor: #373a3c;
+
+    --logoGradient: linear-gradient(35deg, #b1063a 35%, #f6a800);
+
+    --colorBeige: #e6e2e2;
+    --colorGrey: rgba(232, 232, 232, 0.5);
+    --colorLightGrey: rgba(0,0,0,0.1);
+    --colorDarkerGrey: #555;
+    --colorWhite: #fff;
+
+    /* voting tool colors */
+    --lightGrey: #ddd;
+    --buttonHoverColor: #d00643;
+    --buttonSecondaryBorderColor: #8d8d8d;
+    --buttonSecondaryHoverColor: #e4e4e4;
+    --radioInputColor: #ddd;
+    --CollapsibleHeaderColor: #444;
+    --CollapsibleBodyColor: #f1f1f1;
+    --HoverColor: #ccc;
+
+    /* winning candidate colors */
+    --maleWinnerColor: rgb(171, 208, 231);
+    --femaleWinnerColor: rgb(231, 197, 195);
+    --genderlessWinnerAndDeputyColor: rgb(209, 235, 201);
+
+}

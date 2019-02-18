@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box
+}
+button, select, input, textarea {
+  font: inherit
+}
+
+.contentWrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.card {
+  box-sizing: border-box;
+  padding: 1em 3em;
+  width: 100%;
+  margin: 2em auto;
+  background-color: var(--colorWhite);
+  box-shadow: 1px 2px 8px rgba(93, 92, 92, 0.8);
+  border-radius: 4px;
+  text-align: left;
+}
+.card .title {
+  margin: 1rem 0 0 0;
+  text-align: center;
+}
+.wrapper {
+  margin: 2em 1em;
+}
+.wrapper > h2 {
+  margin: 1em 0 .5em;
+}
+
+h3 {
+  margin-top: 1.5em;
+  margin-bottom: .75em;
+}
+
+h4 {
+  margin: 1em 0 .5em;
+}
+
+textarea:invalid, input:invalid{
+  box-shadow:none;
+}

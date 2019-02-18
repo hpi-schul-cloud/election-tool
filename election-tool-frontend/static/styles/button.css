@@ -1,0 +1,50 @@
+/* standard button, add btn_primary or btn_secondary as the use case defines */
+.btn {
+    outline:none;
+    text-align: center;
+    border-radius:40px;
+    background: var(--colorWhite);
+    letter-spacing:1px;
+    text-shadow:0;
+    font-size: 15px;
+    font-weight:bold;
+    cursor: pointer;
+    margin: 8px 16px;
+    padding: 8px 16px;
+    transition: all 0.25s ease;
+}
+.btn:active {
+    letter-spacing: 2px;
+}
+
+/* primary button for important actions */
+.btn_primary {
+    border: 2px solid var(--primaryColor);
+    color: var(--primaryColor);
+}
+.btn_primary:hover {
+    color:var(--colorWhite);
+    background: var(--primaryColor);
+}
+
+/* secondary button for additional actions */
+.btn_secondary {
+    border: 2px solid var(--buttonSecondaryBorderColor);
+    color: var(--colorDarkerGrey);
+}
+.btn_secondary:hover {
+    background: var(--buttonSecondaryHoverColor);
+}
+/* disabled button */
+.disabled {
+    border: 2px solid var(--colorWhite);
+    background: var(--lightGrey);
+    color: var(--colorWhite);
+}
+.disabled:active {
+    letter-spacing: 1px;
+}
+
+:root {
+  --radioBtnHeight: 20px;
+}
